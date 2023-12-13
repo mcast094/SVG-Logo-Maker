@@ -1,5 +1,13 @@
 # SVG-Logo-Maker
 
+## Demonstration Video 
+![Alt text](image-1.png) 
+
+https://drive.google.com/file/d/1tSjX9J6Zh--uWhphxKStZDB9huTyV2eq/view?usp=share_link 
+
+* Please note, 'npm install' was ran before screen recording commenced 
+* Test run at the end includes to check for all three shapes which is why one shows as passed and others show as failed
+
 ## User Story
 
 * AS a freelance web developer
@@ -26,3 +34,7 @@ AND the output text "Generated logo.svg" is printed in the command line
 ## SVG Logo Example 
 
 ![Alt text](image.png)
+
+## Resources
+Philip Loy (Academic Tutor)
+https://www.testim.io/blog/node-js-unit-testing-get-started-quickly-with-examples/ 
