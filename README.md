@@ -33,7 +33,7 @@ AND the output text "Generated logo.svg" is printed in the command line
 
 ## SVG Logo Example 
 
-![Alt text](image.png)
+![Alt text](image-2.png)
 
 ## Resources
 Philip Loy (Academic Tutor)
