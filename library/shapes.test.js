@@ -12,8 +12,5 @@ describe('Shapes', () => {
       });
     });
   
-    // TODO: Write a test that checks if isPassword() returns false when the password does not contain at least 1 uppercase.
-  
-    
   });
   

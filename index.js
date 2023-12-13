@@ -25,7 +25,6 @@ const terminalInput = [
     }
 ];
 
-
 async function start() {
     const userInput = await inquirer.prompt(terminalInput);
 
@@ -40,16 +39,9 @@ async function start() {
         fs.writeFileSync("./Example/logo.svg", triangle.render());
     }
     
-    // trying to create statement to check for text input if longer than 3 characters. Currently defaults to else condition
-    /* if(userInput.text.length > 0 && userInput.length <4) {
-        answerInput = userInput.text; 
-    } else {
-        console.log("Invalid input! Please enter 1-3 characters!"); 
-        return; 
-    } */
-    
     // displays text
-    console.log("User text: [" + userInputInput + "]");
+    userText = userInput["text"];
+    console.log("User text: [" + userText + "]");
     // displays font color 
     userFontColor = userInput["colorOfText"];
     console.log("Logo Font Color: [" + userFontColor + "]");
@@ -59,9 +51,7 @@ async function start() {
     // displays shape color 
     userShapeColor = userInput["colorOfShape"];
     console.log("Shape Color: [" + userShapeColor + "]");
-
-
-    
+    console.log("Generated logo.svg!");
 }
 
 start();
